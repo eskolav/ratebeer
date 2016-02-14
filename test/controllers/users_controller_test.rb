@@ -1,4 +1,5 @@
 require 'test_helper'
+require 'rails_helper'
 
 class UsersControllerTest < ActionController::TestCase
   setup do

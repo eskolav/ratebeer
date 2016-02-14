@@ -6,6 +6,7 @@
 
 <p>
   Has made <%= pluralize(@user.ratings.count, 'rating') %>
+  favorite beer: <%= @user.favorite_beer %>
 </p>
 
 <% if @user.beer_clubs.any? %>

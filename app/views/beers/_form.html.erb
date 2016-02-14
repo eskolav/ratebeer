@@ -12,13 +12,15 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :name %><br>
+    <th>Name:</th> <br>
     <%= f.text_field :name %>
   </div>
   <div class="field">
+    <th>Style:</th><br>
     <%= f.select :style, options_for_select(@styles) %>
   </div>
   <div class="field">
+    <th>Brewery:</th><br>
     <%= f.select :brewery_id, options_from_collection_for_select(@breweries, :id, :name) %>
   </div>
   <div class="actions">
