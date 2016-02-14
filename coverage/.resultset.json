@@ -140,8 +140,11 @@
         1,
         null,
         1,
-        83,
-        70,
+        90,
+        73,
+        null,
+        1,
+        2,
         null,
         null
       ],
@@ -239,7 +242,7 @@
       "/home/esva/beer/app/controllers/beers_controller.rb": [
         1,
         1,
-        null,
+        1,
         null,
         null,
         1,
@@ -385,12 +388,6 @@
         null,
         null,
         1,
-        1,
-        0,
-        0,
-        0,
-        null,
-        null,
         null,
         null,
         1,
@@ -585,9 +582,10 @@
         0,
         0,
         0,
+        0,
         0
       ]
     },
-    "timestamp": 1455452423
+    "timestamp": 1455462114
   }
 }
